@@ -1,0 +1,132 @@
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+    /*--- HERO SECTION --- */
+
+.hero__text {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color: beige;
+    background-color: rgba(37, 30, 30, 0.685);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero__text h1 {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.hero__textsubtitle {
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.hero__textbutton {
+    border: solid black 2px;
+    padding: 12px;
+    border-radius: 8%;
+    background-color: rgba(2, 0, 3, 0.829);
+    color: beige;
+    text-decoration: none;
+}
+
+.hero__textbutton:hover{
+        background-color: white;
+        color: black;
+        transition: 0.8s;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../assets/img/index/herofotoindex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- HEADER --- */
+
+.bg-header {
+    background: rgb(83,82,87);
+    background: radial-gradient(circle, rgba(83,82,87,1) 0%, rgba(182,166,166,1) 61%, rgba(185,168,168,1) 81%, rgba(54,53,66,1) 100%);
+}
+
+.navtext {
+    color: black;
+}
+
+.img-size {
+    object-fit: cover;
+}
+
+/* ---NOSOTROS --- */
+
+.nosotros-h {
+    height: 50vh;
+}
+
+/* --- SECTION --- */
+
+.bg-section {
+    background-color: rgb(70, 34, 34);
+}
+
+/*--- TURNOS ---*/
+
+.turnos-labels {
+    color: white;
+}
+
+.margin {
+    margin: 8px;
+}
+
+/* --- FOOTER --- */
+
+.bg-footer {
+    background-color: rgb(56, 55, 55);
+}
+
+.text-footer {
+    color: white;
+}
+
+i {
+    color:white;
+    font-size: 1.3em;
+}
+
+.footer-button {
+    border: solid black 2px;
+    padding: 12px;
+    border-radius: 8%;
+    background-color: rgba(2, 0, 3, 0.829);
+    color: beige;
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
+.footer-title {
+    font-size: 1.1em;
+}

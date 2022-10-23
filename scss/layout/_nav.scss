@@ -1,0 +1,12 @@
+
+.navtext{
+    color: papayawhip;
+    font-size: 1.07rem;
+
+    &:hover{
+        text-decoration: underline;
+        font-size: 1.2rem;
+        transition: 0.2s;
+        color: goldenrod;
+    }
+}

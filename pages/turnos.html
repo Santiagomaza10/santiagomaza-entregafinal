@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agenda tu cita en Lorem Tattoo">
+    <meta name="keywords" content="lorem tattoo, tatuajes, tattoo, turno, reserva">
+    
+    
+    <!-- LINK FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- ------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Turnos | Lorem Tattoo</title>
+
+</head>
+
+        <!-- HEADER -->
+
+<body>
+  <header class="navbar navbar-expand-md bg-header">
+    <div class="container-fluid align-content-center">
+      <a class="navbar-brand m-1" href="../index.html"><img src="../assets/img/logo/logo.png" alt="logo-maquina" class="w-75"></a>
+      <h1>Lorem Tattoo</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse justify-content-end p-2" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link d-flex justify-content-center navtext" href="../index.html">Home</a>
+              <a class="nav-link d-flex justify-content-center navtext" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link d-flex justify-content-center navtext" href="./trabajos.html">Trabajos</a>
+              <a class="nav-link d-flex justify-content-center navtext" href="./turnos.html">Turnos</a>
+              <a class="nav-link d-flex justify-content-center navtext" href="./local.html">Local</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- TURNOS SECTION -->
+      
+      <main>
+        <section class="container-fluid section-backimg">
+            <h2 class="text-center" class="tituloseccion">Reserva tu turno</h2>
+            <p class="text-center mb-0 p-3">Completando el siguiente formulario podes agendar una cita y comenzar con la experiencia Lorem Tattoo</p>
+          </section>
+              <section class="container-fluid bg-section">
+                <div class="container form-section">
+            <form action="">
+                <div class="container col-12 d-flex flex-column align-items-center" class="form__divcontainer">
+                    <div class="input-form">
+                    <label for="campo-nombre" class="turnos-labels">Ingrese su nombre:</label>
+                    <input type="text" id="campo-nombre" placeholder="Nombre y apellido" name="campo-nombre" required>
+                    </div>
+
+                    <div class="input-form">
+                        <label for="campo-mail" class="turnos-labels">Ingrese su mail:</label>
+                        <input type="email" id="campo-mail" placeholder="mail@gmail.com" name="campo-mail" required>
+                    </div>
+
+                    <div class="input-form">
+                        <label for="campo-tel" class="turnos-labels">Ingrese su telefono:</label>
+                        <input type="tel" id="campo-tel" placeholder="Telefono" name="campo-tel" required>
+                    </div>
+
+                    <div class="input-form">
+                        <label for="soy-mayor-de-18" class="turnos-labels">Soy mayor de 18 años</label>
+                        <input type="checkbox" name="soy-mayor-de-18" required>
+                    </div>
+
+                    <div class="input-form">
+                        <label for="select-tatuador" class="turnos-labels">Selecciona el tatuador</label>
+                        <select name="select-tatuador" required>
+                            <option value="0">Selecciona tu tatuador</option>
+                            <option value="tatuador1">Juan Perez</option>
+                            <option value="tatuador2">Laura Gimenez</option>
+                         </select>
+                    </div>
+
+                    <div class="input-form">
+                        <label for="fecha-turno" class="turnos-labels">Turno</label>
+                        <input type="date" name="fecha-turno" required>
+                    </div>
+                    
+                    <!-- COMENTARIOS Y BOTONES -->
+
+                    <div>
+
+                        <div class="input-form">
+                            <label for="comentarios"></label>
+                            <textarea name="" id="" cols="30" rows="5" placeholder="Comentanos si ya tenes una idea del diseño"></textarea>
+                        </div>
+
+                        <div class="input-form d-flex justify-content-between align-items-center">
+                            <input type="submit">
+                            <input type="reset">
+                        </div>
+                    </div>
+
+                </div>
+              
+            </form>
+          </div>
+
+          </section>
+        
+      </main>
+      
+      <!-- FOOTER -->
+
+      <footer class="container-fluid bg-footer">
+        <div class="row">
+
+          <div class="text-center d-flex justify-content-center align-items-center col-md-6 col-lg-4 p-2">
+            <p>Lorem Tattoo 2022, Todos los derechos reservados</p>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+
+            <h3 class="text-footer text-center footer-title m-2">Nuestras redes</h3>
+
+            <div class="d-flex justify-content-around">
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://es-la.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="bi bi-twitter"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="text-footer text-center footer-title m-2">Contactanos</h3>
+
+
+            <div class="d-flex align-items-center justify-content-around">
+
+            <div class="mb-3">
+              <label for="footer-form" class="form-label text-footer">Email address</label>
+              <input type="email" class="form-control" id="footer-form" placeholder="E-mail">
+            </div>
+
+            <input type="submit" class="footer-button button" value="Enviar">
+          </div>
+          </div>
+
+        </div>
+      </footer>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
