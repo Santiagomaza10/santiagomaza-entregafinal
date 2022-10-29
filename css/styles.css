@@ -99,12 +99,6 @@ header h1 {
   box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.42);
 }
 
-.section-trabajos {
-  background-image: url(../assets/img/background/backsec.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .section-trabajos article {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
 }
