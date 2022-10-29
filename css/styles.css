@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 * p {
   font-family: "Abyssinica SIL", serif;
   color: papayawhip;
@@ -34,6 +38,10 @@ footer h3 {
 footer i {
   color: white;
   font-size: 1.8rem;
+}
+footer i:hover {
+  color: black;
+  transition: 0.3s;
 }
 
 header {
@@ -86,6 +94,10 @@ header h1 {
 .section-nosotros {
   background-color: black;
 }
+.section-nosotros img {
+  border-radius: 15px;
+  box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.42);
+}
 
 .section-trabajos {
   background-image: url(../assets/img/background/backsec.jpg);
@@ -95,6 +107,33 @@ header h1 {
 }
 .section-trabajos article {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
+}
+
+.backgaleria {
+  background-color: black;
+}
+
+.galeria {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
+}
+.galeria h3 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(196, 172, 41);
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.galeria h3:hover {
+  color: black;
+  transition: 0.8s;
+}
+.galeria img {
+  border-radius: 30px;
+  box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.42);
+  object-fit: cover;
 }
 
 .section-local {
@@ -109,16 +148,41 @@ header h1 {
   text-decoration: underline;
 }
 .section-local article a:hover {
+  color: grey;
+  transition: 0.3s;
+}
+.section-local article li, .section-local article a {
+  list-style: none;
+  text-decoration: none;
+  color: papayawhip;
+}
+.section-local article li:hover, .section-local article a:hover {
+  color: grey;
+  transition: 0.3s;
+}
+.section-local article h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4rem;
+  color: rgb(196, 172, 41);
+}
+.section-local article .redes {
+  font-size: 3rem;
+  color: white;
+}
+.section-local article .redes:hover {
   color: black;
   transition: 0.3s;
 }
-.section-local article li {
-  list-style: none;
-  color: papayawhip;
+
+.sponsor {
+  width: 150px;
+  height: 150px;
 }
 
 .input-form {
   margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .form-section {
@@ -127,6 +191,20 @@ header h1 {
 
 .bg-section {
   background-color: black;
+}
+
+.terminossec {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
+}
+
+.terminossec li {
+  list-style: none;
+  color: papayawhip;
+}
+.terminossec img {
+  border-radius: 30px;
+  box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.42);
+  object-fit: fill;
 }
 
 .hero {
@@ -151,6 +229,7 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
 }
 
 .indexcard, .tarjeta3, .tarjeta2 {
@@ -168,9 +247,17 @@ header h1 {
   font-size: 4rem;
   color: white;
 }
+.indexcard:hover, .tarjeta3:hover, .tarjeta2:hover {
+  background-color: grey;
+  transition: 0.8s;
+}
+.indexcard:hover i, .tarjeta3:hover i, .tarjeta2:hover i, .indexcard:hover p, .tarjeta3:hover p, .tarjeta2:hover p {
+  color: black;
+}
 
 .herobox__subtitle {
   font-style: italic;
+  font-size: 1.8rem;
 }
 
 .tarjeta2 p {
@@ -184,6 +271,22 @@ header h1 {
 
 .elegirnos {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
+}
+
+.herobox__button {
+  border: solid black 2px;
+  padding: 12px;
+  margin: 15px;
+  border-radius: 8%;
+  background-color: rgba(2, 0, 3, 0.829);
+  color: beige;
+  width: 80%;
+  text-align: center;
+}
+.herobox__button:hover {
+  background-color: white;
+  transition: 0.8s;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

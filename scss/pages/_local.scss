@@ -9,16 +9,40 @@
         color: papayawhip;
         text-decoration: underline;
         &:hover{
-            color: black;
+            color: grey;
             transition: 0.3s;
         }
     }
 
-    & li{
+    & li, a{
         list-style: none;
+        text-decoration: none;
         color: papayawhip;
+        &:hover{
+            color: grey;
+            transition: 0.3s;
+              }
+         }
+         h3{
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.4rem;
+            color: $title-color;;
+         }
+         .redes{
+            font-size: 3rem;
+            color: white;
+            &:hover{
+                color: black;
+                transition: 0.3s;
+            }
+         }
     }
-    
-    }
+}
+
+
+
+.sponsor{
+    width: 150px;
+    height: 150px;
 }
 

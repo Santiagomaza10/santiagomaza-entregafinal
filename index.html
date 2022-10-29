@@ -30,7 +30,7 @@
     <header class="navbar navbar-expand-md">
         <div class="container-fluid align-content-center">
           <a class="navbar-brand m-1" href="./index.html"><img src="./assets/img/logo/logo.png" alt="logo-maquina" class="w-75"></a>
-          <h1>Lorem Tattoo</h1>
+          <a href="./index.html"><h1>Lorem Tattoo</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -52,10 +52,12 @@
         <section class="container-fluid d-flex justify-content-center align-items-center hero">
             
               <div class="row d-flex align-items-center justify-content-center herobox">
-                <div class="d-flex justify-content-center align-items-center m-4 text-center">
+                <div class="d-flex justify-content-center align-items-center m-4 text-center col-12 col-md-5">
                 <h2> Lorem Tattoo <br> <span class="herobox__subtitle"> Tattoos de autor</span></h2>
                 </div>
-                <a href="./pages/turnos.html" class="herobox__button d-flex justify-content-center">Reserva tu turno</a>
+                <div class="d-flex justify-content-center align-items-center col-12 col-md-5">
+                <a href="./pages/turnos.html" class="herobox__button  d-flex justify-content-center">Reserva tu turno</a>
+                </div>
               </div>
         </section>
       </main>
@@ -65,9 +67,40 @@
         <h2 class="text-center">Bienvenidos a Lorem Tattoo</h2>
         <div class="container section-index">
         <p class="text-center p-4 mb-0">Enfocados en la combinación de la historia del arte y los avances tecnológicos que vivimos en la actualidad. En el grupo Lorem Tattoo, apuntamos a ser la mayor referencia del mundo del arte en general y la industria del tatuaje a nivel mundial, marcando la diferencia con experiencias exclusivas, únicas y totalmente innovadoras para nuestros clientes.</p>
-        <div class="bienvenidosimgcontainer pb-4">
-          <img src="./assets/img/index/index-bienvenidos.jpg" alt="Tatuador tatuando una espalda" class="bienvenidosimg">
+        
+        <di class="container d-flex justify-content-center pb-4">
+        <div id="carousel-bienvenida" class="carousel slide w-75 h-75" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-bienvenida" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-bienvenida" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-bienvenida" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/index/carousel/carouselindex1.jpg" class="d-block w-100" alt="tatuador trabajando">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/index/carousel/carouselindex2.jpg" class="d-block w-100" alt="tatuador trabajando">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/index/carousel/carouselindex3.jpg" class="d-block w-100" alt="tatuador trabajando">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-bienvenida" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-bienvenida" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
+        
+        <!-- <div class="bienvenidosimgcontainer pb-4">
+          <img src="./assets/img/index/index-bienvenidos.jpg" alt="Tatuador tatuando una espalda" class="bienvenidosimg">
+        </div> -->
+
       </div>
     </section>
 
@@ -80,7 +113,7 @@
           <p>Creemos en el valor de la trascendencia y nuestros clientes nos contactan para obtener este tipo de valor. Nuestro compromiso se basa en la creación de una expresión de arte, la satisfacción de nuestros clientes y que nuestra marca genere grandes impactos.</p>
         </div>
       </article>
-    <div class="containder-fluid bg-black indexcardscontainer">
+    <div class="containder-fluid indexcardscontainer">
       <div class="row d-flex justify-content-around">
       <div class="indexcard">
         <i class="bi bi-check-circle"></i>

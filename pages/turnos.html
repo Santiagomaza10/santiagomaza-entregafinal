@@ -32,7 +32,7 @@
   <header class="navbar navbar-expand-md bg-header">
     <div class="container-fluid align-content-center">
       <a class="navbar-brand m-1" href="../index.html"><img src="../assets/img/logo/logo.png" alt="logo-maquina" class="w-75"></a>
-      <h1>Lorem Tattoo</h1>
+      <a href="../index.html"><h1>Lorem Tattoo</h1></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -55,10 +55,14 @@
             <h2 class="text-center" class="tituloseccion">Reserva tu turno</h2>
             <p class="text-center mb-0 p-3">Completando el siguiente formulario podes agendar una cita y comenzar con la experiencia Lorem Tattoo</p>
           </section>
-              <section class="container-fluid bg-section">
-                <div class="container form-section">
+          
+              <section class="container-fluid bg-section d-flex justify-content-center align-items-center">
+                
+                  
             <form action="">
-                <div class="container col-12 d-flex flex-column align-items-center" class="form__divcontainer">
+              <div class="container form-section d-flex py-5">
+              <div class="row">
+                <div class="d-flex flex-column align-items-center justify-content-center col-lg-5" >
                     <div class="input-form">
                     <label for="campo-nombre" class="turnos-labels">Ingrese su nombre:</label>
                     <input type="text" id="campo-nombre" placeholder="Nombre y apellido" name="campo-nombre" required>
@@ -92,29 +96,58 @@
                         <label for="fecha-turno" class="turnos-labels">Turno</label>
                         <input type="date" name="fecha-turno" required>
                     </div>
-                    
+                  </div>
+
                     <!-- COMENTARIOS Y BOTONES -->
 
-                    <div>
-
-                        <div class="input-form">
+                    
+                      <div class="container d-flex justify-content-center align-content-center col-lg-6">
+                        <div class="row">
+                        <div class="input-form d-flex justify-content-center col-12">
                             <label for="comentarios"></label>
-                            <textarea name="" id="" cols="30" rows="5" placeholder="Comentanos si ya tenes una idea del diseño"></textarea>
+                            <textarea name="" id="" cols="20" rows="5" placeholder="Comentanos si ya tenes una idea del diseño" class="col-12"></textarea>
                         </div>
 
-                        <div class="input-form d-flex justify-content-between align-items-center">
-                            <input type="submit">
-                            <input type="reset">
+                        <div class="input-form d-flex col-5">
+                          <input type="submit" class="m-4 button">
+                          </div>
+                        <div class="input-form d-flex  col-5">                        
+                            <input type="reset" class="button">
                         </div>
-                    </div>
-
+                      </div>
+                  </div>
                 </div>
-              
-            </form>
-          </div>
-
+                </form>
+          
+          
           </section>
         
+          <section>
+          <article>
+          
+          <div class="container-fluid section-backimg">
+            <h2 class="text-center">Terminos y condiciones</h2>
+            <p class="text-center m-0 p-3">En Lorem Tattoo contamos con las siguientes políticas de reserva y cancelación de turnos</p>
+          </div>
+
+          <div class="container-fluid bg-section">
+          <div class="container terminossec">
+            <div class="row d-flex justify-content-between align-items-center">
+            <ul class="text-justify col-12 col-md-5">
+              <li class="py-3">- Para reservar un turno es necesaria una seña del 50% del valor de la sesión ($10.000).</li>
+              <li class="py-3">- Las sesiones son de 3hs.</li>
+              <li class="py-3">- Para reprogramar un turno es necesario dar aviso con un minimo de 48hs de antelación.</li>
+              <li class="py-3">- En caso de cancelar un turno 48hs antes del mismo, la seña se pierde.</li>
+              <li class="py-3">- En caso de ausencia en un turno señado, la seña se pierde.</li>
+            </ul>
+            <div class="col-12 col-md-5 py-4 d-flex justify-content-center align-items-center">
+            <img src="../assets/img/turnos/turnosimg.jpg" alt="aguja tatuando">
+            </div>
+          </div>
+          </div>
+        </div>
+          </article>
+        </section>
       </main>
       
       <!-- FOOTER -->

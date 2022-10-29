@@ -15,5 +15,9 @@ footer {
     i {
         color: white;
         font-size: 1.8rem;
+        &:hover{
+            color: black;
+            transition: 0.3s;
+        }
     }
 }
